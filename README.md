@@ -13,6 +13,7 @@ Posição inicial:
 [ 1 1 1 1 1]
 [ 1 1 1 1 1]]
 
+![](matrix_0-1.png)
 
 Como fica o tabuleiro ao final de 2026 passos?
 
@@ -26,17 +27,20 @@ Dá para fazer com lápis e papel, mas é mais bonito e preciso fazer com um com
 
 Após a primeira iteração:
 
+![](matrix_1-1.png)
 
 Após a segunda:
-
+![](matrix_2.png)
 
 Segue um gif animado com algumas dessas iterações.
 
+![](matrix.gif)
 
 A partir da iteração 4, o padrão começa a se repetir, e com período 4.
 
 2026 é da forma 4*x + 2, então vai coincidir exatamente com a iteração 6. Ou seja, vai resultar no padrão:
 
+![](matrix_6.png)
 
 Em formato matricial:
 
